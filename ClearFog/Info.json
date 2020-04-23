@@ -1,0 +1,19 @@
+{
+    "Name": "ClearFog",
+    "DisplayName": "清除迷雾",
+    "GameVersion": 0.9739,
+    "Version": 0.4,
+    "Desc": "[作者]\r\n    Yahui\r\n[简介]\r\n清除游戏内的迷雾。",
+    "Author": "Yahui",
+    "UIPackage": null,
+    "ID": "1884095705",
+    "Flag": 854917969,
+    "Tags": [
+        "Usability",
+        "ExcludeRealmsHeaven"
+    ],
+    "IncreasedDesc": "[0.4]\n使用官方的 API 接口调用，优化性能\n[0.3 更新]\n修复无法进行一些操作的错误",
+    "IsInsideCreat": false,
+    "Previews": [],
+    "ParentModInfo": null
+}
