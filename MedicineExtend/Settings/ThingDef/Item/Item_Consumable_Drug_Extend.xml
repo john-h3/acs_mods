@@ -1,0 +1,47 @@
+<ThingDefs>
+    <List>
+        <ThingDef Type="Item" Name="Item_PureHealroot" Parent="DrugBase">
+            <ThingName>药草精华</ThingName>
+            <MaxStack>500</MaxStack>
+            <TexPath>res\Sprs\object\object_herbal</TexPath>
+            <Desc>耗费大量时间从药草中提炼的精华，比药草的效果要更好些</Desc>
+            <Tags>
+                <Tag Name="Drug" Level="2" />
+            </Tags>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Rate>4</Rate>
+            <Beauty>2</Beauty>
+            <ElementKind>Mu</ElementKind>
+            <Flammability>
+                <Flammability>0.4</Flammability>
+                <FlameSpawnThingDef></FlameSpawnThingDef>
+                <FlameSpawnChance>0</FlameSpawnChance>
+            </Flammability>
+            <Item Lable="Drug">
+                <FabaoSuffix>引,散,粉</FabaoSuffix>
+                <PhysicalLables>
+                    <li>Soft1</li>
+                    <li>Light1</li>
+                </PhysicalLables>
+                <Drug>
+                    <Value>0.25</Value>
+                    <Duration>1</Duration>
+                    <Parts>
+                        <li>Any</li>
+                    </Parts>
+                </Drug>
+                <BeMade>
+                    <WorkToMake>300</WorkToMake>
+                    <Quality>0</Quality>
+                    <CostItems>
+                        <Item name="Item_Healroot" count="1" />
+                    </CostItems>
+                </BeMade>
+            </Item>
+            <Element>
+                <Kind>Mu</Kind>
+                <Radius>1</Radius>
+            </Element>
+        </ThingDef>
+    </List>
+</ThingDefs>

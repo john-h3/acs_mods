@@ -1,0 +1,53 @@
+<ThingDefs>
+	<List>
+		<ThingDef Type="Item" Name="Item_Dan_NoHunger1" Parent="DanBase">
+			<ThingName>兵粮丸</ThingName>
+			<TexPath>res\Sprs\object\object_XIAOdanyao02</TexPath>
+			<Desc>服用后可以不吃不睡，持续两天。</Desc>
+			<Tags>
+				<Tag Name="PracticeFood" Level="2"/>
+			</Tags>
+			<Rate>6</Rate>
+			<Beauty>5</Beauty>
+			<ElementKind>Mu</ElementKind>
+			<Item Lable="Dan">
+				<Prices>
+					<TalkType>2</TalkType>
+					<BaseCount>10</BaseCount>
+					<li PriceTag="School">
+						<BuyPrice Value="5" />
+						<SalePrice Value="1" />
+					</li>
+					<li PriceTag="Trade">
+						<BuyPrice Value="10" />
+						<SalePrice Value="2" />
+					</li>
+					<li PriceTag="Auction">
+						<BuyPrice Value="100" />
+						<SalePrice Value="0" />
+					</li>
+				</Prices>
+				<PhysicalLables>
+					<li>Smooth1</li>
+					<li>Hard1</li>
+					<li>Light1</li>
+				</PhysicalLables>
+				<Elixir>
+					<Modifier>Dan_NoHunger1</Modifier>
+				</Elixir>
+				<BeMade>
+					<WorkToMake>200</WorkToMake>
+					<CostItems>
+						<Item name="Item_Fruit" count="3" />
+						<Item name="Item_Ginkgo" count="9" />
+						<Item name="Item_PureHealroot" count="9" />
+					</CostItems>
+				</BeMade>
+			</Item>
+			<Element>
+				<Kind>Mu</Kind>
+				<Value>3</Value>
+			</Element>
+		</ThingDef>
+	</List>
+</ThingDefs>

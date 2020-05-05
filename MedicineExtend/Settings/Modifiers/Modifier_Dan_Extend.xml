@@ -1,0 +1,16 @@
+<ModifierDefs>
+	<List>
+		<Modifier Name="Dan_NoHunger1" Type="Normal">
+			<DisplayName>兵粮丸</DisplayName>
+			<Desc>服用兵粮丸，两天之内不会饥饿，不会疲劳。</Desc>
+			<MaxStack>1</MaxStack>
+			<Duration>1200</Duration>
+			<Display>1</Display>
+			<Sync>1</Sync>
+			<Properties>
+				<li Name="NutritionConsumeConstant" AddP="-1" />
+				<li Name="FatigueConsumeConstant" AddP="-1" />
+			</Properties>
+		</Modifier>
+	</List>
+</ModifierDefs>
