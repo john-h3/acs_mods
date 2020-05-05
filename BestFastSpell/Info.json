@@ -1,0 +1,21 @@
+{
+	"Name": "BestFastSpell",
+	"DisplayName": "完美快速画符",
+	"GameVersion": 0.9739,
+	"Version": 0.2,
+	"Desc": "[作者]\r\n    Yahui\r\n[简介]\r\n修改了符咒的全局品质，快速画符能直接生成100品质的符咒",
+	"Author": "Yahui",
+	"UIPackage": null,
+	"ID": "2065032002",
+	"Flag": -1878086520,
+	"Tags": [
+		"Item",
+		"Function",
+		"Usability",
+		"ExcludeRealmsHeaven"
+	],
+	"IncreasedDesc": "v0.2\n之前将全局品质设为100，由于游戏机制快速画符只能生成95%的最高品质，现已修改为更合适的值",
+	"IsInsideCreat": false,
+	"Previews": [],
+	"ParentModInfo": null
+}
