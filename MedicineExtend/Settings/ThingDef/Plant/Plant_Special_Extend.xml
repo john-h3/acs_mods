@@ -1,0 +1,84 @@
+<ThingDefs>
+    <List>
+
+        <ThingDef Type="Plant" Name="HumanPlantRaspberry" Parent="PlantBase">
+            <ThingName>龙涎植株</ThingName>
+
+            <TexPath>res/Sprs/scene_TemperateForest_plant/scene_gaomojiangguo_a</TexPath>
+            <Desc>人工选培的龙涎植株，更加耐受环境温度，产收更好，但需要种植在有灵气的地方。</Desc>
+
+            <SelectAble>1</SelectAble>
+            <Beauty>-1</Beauty>
+            <Rate>6</Rate>
+
+            <UseHitPoints>0</UseHitPoints>
+            <MaxHitPoints>150</MaxHitPoints>
+
+            <Plant>
+                <PlantLayer>PlantLow</PlantLayer>
+                <WildClusterSizeRangemin>0</WildClusterSizeRangemin>
+                <WildClusterSizeRangemax>0</WildClusterSizeRangemax>
+                <WildClusterRadius>0</WildClusterRadius>
+                <DeciduousLeafInAutumn>0</DeciduousLeafInAutumn>
+
+                <RipedTexPath>res/Sprs/scene_TemperateForest_plant/scene_gaomojiangguo_b</RipedTexPath>
+                <HarvestedTexPath></HarvestedTexPath>
+                <LeaflessTexPath></LeaflessTexPath>
+                <SnowedTexPath></SnowedTexPath>
+
+                <VisualSizeMin>0.6</VisualSizeMin>
+                <VisualSizeMax>1</VisualSizeMax>
+                <SowRenderTags>plant</SowRenderTags>
+                <LifespanFraction>160</LifespanFraction>
+                <GrowDays>23</GrowDays>
+                <HarvestDays>34</HarvestDays>
+
+                <TempMin>-30</TempMin>
+                <TempMax>40</TempMax>
+                <LingMin>25</LingMin>
+                <LingMax>400</LingMax>
+
+                <SnowRenderData>
+                    <x>2.65</x>
+                    <y>3.55</y>
+                    <z>2</z>
+                </SnowRenderData>
+            </Plant>
+            <Harvest>
+                <HarvestWork>25</HarvestWork>
+                <DropWork>25</DropWork>
+                <HarvestValueMin>0.8</HarvestValueMin>
+                <HarvestFailable>0</HarvestFailable>
+
+                <HarvestTag>
+                    <li>SquatCollection</li>
+                </HarvestTag>
+
+                <HarvestItems>
+                    <li>
+                        <ThingDef>Item_Fruit</ThingDef>
+                        <Count>1</Count>
+                    </li>
+                    <li>
+                        <ThingDef>Item_Fruit</ThingDef>
+                        <Count>1</Count>
+                        <Rate>0.75</Rate>
+                    </li>
+                    <li>
+                        <ThingDef>Item_Fruit</ThingDef>
+                        <Count>1</Count>
+                        <Rate>0.35</Rate>
+                    </li>
+                </HarvestItems>
+            </Harvest>
+            <Light>
+                <Value>15</Value>
+                <Failing>0.8</Failing>
+                <FailRadius>0</FailRadius>
+                <Radius>1</Radius>
+                <Color>FFCF00FF</Color>
+            </Light>
+        </ThingDef>
+
+    </List>
+</ThingDefs>
