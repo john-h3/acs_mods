@@ -1,0 +1,3 @@
+ItemName	Type
+Item_PureHealroot	药草
+Item_Fruit	食材
