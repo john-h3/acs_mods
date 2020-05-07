@@ -1,0 +1,7 @@
+<Properties>
+	<List>
+		<Property Name="WorkKindEXPContent_Pharmacy">
+			<BaseValue>2</BaseValue>
+		</Property>
+	</List>
+</Properties>

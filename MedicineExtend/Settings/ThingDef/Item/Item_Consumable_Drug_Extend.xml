@@ -34,7 +34,7 @@
                     <WorkToMake>300</WorkToMake>
                     <Quality>0</Quality>
                     <CostItems>
-                        <Item name="Item_Healroot" count="1" />
+                        <Item name="Item_Healroot" count="3" />
                     </CostItems>
                 </BeMade>
             </Item>

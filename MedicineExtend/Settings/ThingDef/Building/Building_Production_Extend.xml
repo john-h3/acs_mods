@@ -149,7 +149,7 @@
 					<Produce>
 						<ThingDef>Item_PureHealroot</ThingDef>
 						<Display>药草精华</Display>
-						<Count>1</Count>
+						<Count>9</Count>
 					</Produce>
 				</Produces>
 			</Building>
